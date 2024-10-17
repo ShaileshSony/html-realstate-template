@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- header section start here -->
+        <div class="top-head">
+            <header>
+                <div id="toggle-btn" class="toggle-bar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="logo-box">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="user-box">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="menubar-box">
+                    <ul>
+                        <li><a href="#">Product</a><i class="fa-solid fa-caret-down"></i></li>
+                        <li><a href="#">How Houzeo Works</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Buy</a><i class="fa-solid fa-caret-down"></i></li>
+                        <li><a href="#">Sell</a><i class="fa-solid fa-caret-down"></i></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Resources</a><i class="fa-solid fa-caret-down"></i></li>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">Resources</a></li>
+                    </ul>
+                    <div class="button-box"><button>Start Free Listing</button></div>
+                </div>
+            </header>
+        </div>
+        <!-- header section end here -->
+        <div class="app-container">
+            <!--input search section start here  -->
+            <div class="input-section">
+                <div class="left-input-box">
+                    <div class="search_box">
+                        <div class="row-box">
+                            <input type="text" id="input-box" placeholder="Serch by city, state, or zip">
+                            <div class="cancel-box">+</div>
+                            <button class="lence-box">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                        <div class="result-box">
+                            <!-- list -->
+                        </div>
+                    </div>
+                    <div class="mob-filter-box">
+                        <img src="images/mob-filter.png" alt="">
+                    </div>
+                </div>
+                <div class="filter-option">
+                    <div class="multi-opt-box">
+                        <div class="option-div for-sell">
+                            <select name="" id="select-one" class="select-one for-sell">
+                                <option value="for-sale">For Sale</option>
+                            </select>
+                        </div>
+                        <div class="option-div">
+                            <select name="" id="select-one" class="select-one">
+                                <option value="price">Price</option>
+                            </select>
+                        </div>
+                        <div class="option-div mob-hide">
+                            <select name="" id="select-one" class="select-one">
+                                <option value="for-sale">Beds & Baths</option>
+                            </select>
+                        </div>
+                        <div class="option-div mob-hide">
+                            <select name="" id="select-one" class="select-one">
+                                <option value="for-sale">Property Type</option>
+                            </select>
+                        </div>
+                        <div class="option-div mob-hide">
+                            <img src="images/filter.png" alt="">
+                            Filters
+                        </div>
+    
+                        <button class="save-btn mob-hide">
+                            <img src="images/saved.png" alt="">
+                            Saved
+                        </button>
+                    </div>
+
+                    <button class="save-search">
+                        Save Search
+                    </button>
+                </div>
+
+
+            </div>
+            <!--input search section end here  -->
+        </div>
+        <!-- map section start here -->
+        <div class="store-location-box">
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14410.017897486716!2d81.85268673444892!3d25.454825115544224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acaa6de5f8fe1%3A0x4218f33fb7b52cbc!2sTagore%20Town%2C%20Prayagraj%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1729068459512!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="right-card-container">
+                <h2 class="feature-head">Austin, TX real estate & homes for sale</h2>
+                <div class="sorting-box">
+                    <span>2,010 Homes </span>
+                    <div class="sort-list">
+
+                        <label for="">Sort by:</label>
+                        <select class="select-list" name="list" id="sort-list">
+                            <option value="new-List">New Listing</option>
+                            <option value="new-List">Features List</option>
+                            <option value="new-List">Grand List</option>
+                            <option value="new-List">Premium List</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <!-- card box start here-->
+                    <div class="card-box">
+                        <span class="tl-badge">6 days on Houzeo</span>
+                        <span class="wish-box">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="images/image 6.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/image 7.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/image 8.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/image 9.png" alt="">
+                            </div>
+                        </div>
+                        <div class="indicator-box">
+                            <p class="bl-badge"> <span class="active-sign"></span> House for sale </p>
+                            <p class="views-box"> <i class="fa-regular fa-eye"></i> <span>2.2K</span></p>
+
+                        </div>
+                        <div class="features-box">
+                            <p class="price-box">$ <span>3,500,100</span> </p>
+                            <div class="right-box">
+                                <div class="sub-box">4 <span>Beds</span></div>
+                                <div class="sub-box">3 <span>Baths</span></div>
+                                <div class="sub-box">998 <span>sqft</span></div>
+                            </div>
+                        </div>
+                        <div class="addres-box">
+                            <p><b>2856 Meadow Park Ave, </b>Henderson, NV 89052</p>
+                            <p>Nashville (Real Tracs Mid) MLS-TN as distributed by MLS GRID</p>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <span class="tl-badge">12 days on Houzeo</span>
+                        <span class="wish-box">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="images/image 7.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/image 8.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/image 9.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/image 6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="indicator-box">
+                            <p class="bl-badge"> <span class="active-sign"></span> House for sale </p>
+                            <p class="views-box"> <i class="fa-regular fa-eye"></i> <span>2.2K</span></p>
+
+                        </div>
+                        <div class="features-box">
+                            <p class="price-box">$ <span>3,500,100</span> </p>
+                            <div class="right-box">
+                                <div class="sub-box">4 <span>Beds</span></div>
+                                <div class="sub-box">3 <span>Baths</span></div>
+                                <div class="sub-box">998 <span>sqft</span></div>
+                            </div>
+                        </div>
+                        <div class="addres-box">
+                            <p><b>2856 Meadow Park Ave, </b>Henderson, NV 89052</p>
+                            <p>Nashville (Real Tracs Mid) MLS-TN as distributed by MLS GRID</p>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <span class="tl-badge">10 days on Houzeo</span>
+                        <span class="wish-box">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="images/image 8.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/image 9.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/image 6.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/image 7.png" alt="">
+                            </div>
+                        </div>
+                        <div class="indicator-box">
+                            <p class="bl-badge"> <span class="active-sign"></span> House for sale </p>
+                            <p class="views-box"> <i class="fa-regular fa-eye"></i> <span>2.2K</span></p>
+
+                        </div>
+                        <div class="features-box">
+                            <p class="price-box">$ <span>3,500,100</span> </p>
+                            <div class="right-box">
+                                <div class="sub-box">4 <span>Beds</span></div>
+                                <div class="sub-box">3 <span>Baths</span></div>
+                                <div class="sub-box">998 <span>sqft</span></div>
+                            </div>
+                        </div>
+                        <div class="addres-box">
+                            <p><b>2856 Meadow Park Ave, </b>Henderson, NV 89052</p>
+                            <p>Nashville (Real Tracs Mid) MLS-TN as distributed by MLS GRID</p>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <span class="tl-badge">6 days on Houzeo</span>
+                        <span class="wish-box">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="images/image 9.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/image 6.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/image 7.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/image 8.png" alt="">
+                            </div>
+                        </div>
+                        <div class="indicator-box">
+                            <p class="bl-badge"> <span class="active-sign"></span> House for sale </p>
+                            <p class="views-box"> <i class="fa-regular fa-eye"></i> <span>2.2K</span></p>
+
+                        </div>
+                        <div class="features-box">
+                            <p class="price-box">$ <span>3,500,100</span> </p>
+                            <div class="right-box">
+                                <div class="sub-box">4 <span>Beds</span></div>
+                                <div class="sub-box">3 <span>Baths</span></div>
+                                <div class="sub-box">998 <span>sqft</span></div>
+                            </div>
+                        </div>
+                        <div class="addres-box">
+                            <p><b>2856 Meadow Park Ave, </b>Henderson, NV 89052</p>
+                            <p>Nashville (Real Tracs Mid) MLS-TN as distributed by MLS GRID</p>
+                        </div>
+                    </div>
+                    <!--card box end here  -->
+                    <!-- <div class="card-box">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="images/image 7.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/image 6.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/image 9.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/image 8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="images/image 8.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/image 7.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/image 6.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/image 9.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="images/image 9.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/image 8.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/image 7.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/image 6.png" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+                </div>
+            </div>
+        </div>
+        <!-- map section end here -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: true,
+            autoplay: 3000,
+            autoplayHoverPause: false,
+            // animateOut: 'fadeout',
+            // responsive: {
+            //     0: {
+            //         items: 1
+            //     },
+            //     600: {
+            //         items: 1
+            //     },
+            //     1000: {
+            //         items: 1
+            //     }
+            // }
+        })
+    </script>
+</body>
+
+</html>
