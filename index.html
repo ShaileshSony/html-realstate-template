@@ -148,7 +148,7 @@
                             <i class="fa-regular fa-heart"></i>
                             <i class="fa-solid fa-heart"></i>
                         </span>
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel card-slider owl-theme">
                             <div class="item">
                                 <img src="images/image 6.png" alt="">
                             </div>
@@ -186,7 +186,7 @@
                             <i class="fa-regular fa-heart"></i>
                             <i class="fa-solid fa-heart"></i>
                         </span>
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel card-slider owl-theme">
                             <div class="item">
                                 <img src="images/image 7.png" alt="">
                             </div>
@@ -224,7 +224,7 @@
                             <i class="fa-regular fa-heart"></i>
                             <i class="fa-solid fa-heart"></i>
                         </span>
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel card-slider owl-theme">
                             <div class="item">
                                 <img src="images/image 8.png" alt="">
                             </div>
@@ -262,7 +262,7 @@
                             <i class="fa-regular fa-heart"></i>
                             <i class="fa-solid fa-heart"></i>
                         </span>
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel card-slider owl-theme">
                             <div class="item">
                                 <img src="images/image 9.png" alt="">
                             </div>
@@ -296,7 +296,7 @@
                     </div>
                     <!--card box end here  -->
                     <!-- <div class="card-box">
-                    <div class="owl-carousel owl-theme">
+                    <div class="owl-carousel card-slider owl-theme">
                         <div class="item">
                             <img src="images/image 7.png" alt="">
                         </div>
@@ -312,7 +312,7 @@
                     </div>
                 </div>
                 <div class="card-box">
-                    <div class="owl-carousel owl-theme">
+                    <div class="owl-carousel card-slider owl-theme">
                         <div class="item">
                             <img src="images/image 8.png" alt="">
                         </div>
@@ -328,7 +328,7 @@
                     </div>
                 </div>
                 <div class="card-box">
-                    <div class="owl-carousel owl-theme">
+                    <div class="owl-carousel card-slider owl-theme">
                         <div class="item">
                             <img src="images/image 9.png" alt="">
                         </div>
@@ -358,13 +358,14 @@
     <script src="app.js"></script>
     <script src="owl.carousel.min.js"></script>
     <script>
-        $('.owl-carousel').owlCarousel({
+        $('.owl-carousel.card-slider').owlCarousel({
             items: 1,
             loop: true,
             margin: 10,
-            nav: false,
+            nav: true,
+            navText: ['<i class="fa-solid fa-angle-down"></i>', '<i class="fa-solid fa-angle-down"></i>'],
             dots: true,
-            autoplay: 3000,
+            // autoplay: 3000,
             autoplayHoverPause: false,
             // animateOut: 'fadeout',
             // responsive: {
