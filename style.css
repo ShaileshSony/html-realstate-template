@@ -383,6 +383,7 @@
     text-transform: capitalize;
     padding-left: 8px;
     padding-right: 8px;
+    cursor: pointer;
     /* height: fit-content; */
 }
 
