@@ -38,6 +38,9 @@
     max-width: 1440px;
     margin: auto;
 }
+.logo-box{
+    cursor: pointer;
+}
 
 .menubar-box {
     flex: 1;
@@ -547,6 +550,11 @@ span.active-sign {
     padding: 0px 15px;
     padding: 0px 16px;
     gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.option-div .filter-img-btn:hover{
+    border: 1px solid var(--font-color);
 }
 
 .option-div select {
@@ -574,6 +582,12 @@ span.active-sign {
     align-items: center;
     padding: 0px 15px;
     padding: 0px 16px;
+    transition: all 0.3s;
+}
+.option-div select:hover{
+    border: 1px solid var(--font-color);
+    /* color: var(--font-color);
+    font-weight: 600; */
 }
 
 .option-div.for-sell select {
@@ -599,6 +613,11 @@ button.save-btn, .save-search {
     align-items: center;
     justify-content: center;
     gap: 16px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+button.save-btn:hover{
+    border: 1px solid var(--font-color);
 }
 
 .save-search {
